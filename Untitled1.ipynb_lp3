@@ -1,0 +1,1308 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyN+qOb725xCwTOoGHFI6WIn",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/nawangriyanaputri/algoritma/blob/main/Untitled1.ipynb_lp3\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ZfLYi0A_hQ_H",
+        "outputId": "8e1a990a-034e-4bae-cc08-95d32dc89740"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Python is powerful\n"
+          ]
+        }
+      ],
+      "source": [
+        "print('Python is powerful')"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print('Good Morning!')\n",
+        "print('It is rainy today')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "qLFDo_G6hqZE",
+        "outputId": "8a20b231-83e6-4e09-edc9-2be75e8f213a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Good Morning!\n",
+            "It is rainy today\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# print with end whitespace\n",
+        "#print('Good Morning!', end= ' ')\n",
+        "print('Good Morning!', end= '')\n",
+        "print(' It is rainy today')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6_qveqOPh6WH",
+        "outputId": "0d9ae2e2-d99c-4235-bc29-57c4f4e2613b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Good Morning! It is rainy today\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print('New Year', 2023, 'See you soon!', sep= '. ')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4aYt9-dmiWYK",
+        "outputId": "e4528367-30af-4860-ff3e-84c28207e606"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "New Year. 2023. See you soon!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "number = -10.6\n",
+        "name = \"Teknologi Informasi\"\n",
+        "# print literals\n",
+        "print(5)\n",
+        "# print variables\n",
+        "print(number)\n",
+        "print(name)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XU_8fmP2ipYG",
+        "outputId": "1a74d971-e38e-4dfd-fe80-a71eb208f7b5"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "5\n",
+            "-10.6\n",
+            "Teknologi Informasi\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print('Teknologi Informasi' + ' Universitas Tidar')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "KHcreILjjA5U",
+        "outputId": "d0fecaf5-7b43-4945-ac82-46f7fc7e4d97"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Teknologi Informasi Universitas Tidar\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = 5\n",
+        "y = 10\n",
+        "print('The value of x is {} and y is {}' .format(x,y))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "s7YeIMXDjKkT",
+        "outputId": "0dbb9e16-38b9-4dea-f15d-79c1675f71d9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "The value of x is 5 and y is 10\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# using input() to take user input\n",
+        "num = input('Enter a number: ')\n",
+        "print('You Entered:', num)\n",
+        "print('Data type of num:', type(num))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_QD2W7ZojcCC",
+        "outputId": "95a82550-83f6-400e-9d29-c399edb1874f"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number: 45\n",
+            "You Entered: 45\n",
+            "Data type of num: <class 'str'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!pip install wget"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vkOGFFfzj5gS",
+        "outputId": "d05845d6-03d7-463b-b96d-7f28b2ae37a0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Collecting wget\n",
+            "  Downloading wget-3.2.zip (10 kB)\n",
+            "  Preparing metadata (setup.py) ... \u001b[?25l\u001b[?25hdone\n",
+            "Building wheels for collected packages: wget\n",
+            "  Building wheel for wget (setup.py) ... \u001b[?25l\u001b[?25hdone\n",
+            "  Created wheel for wget: filename=wget-3.2-py3-none-any.whl size=9656 sha256=a2591674b95fa172f3eb25f0a1bdb8bf0d9c43ec326c1d6dffab31333e5150f3\n",
+            "  Stored in directory: /root/.cache/pip/wheels/8b/f1/7f/5c94f0a7a505ca1c81cd1d9208ae2064675d97582078e6c769\n",
+            "Successfully built wget\n",
+            "Installing collected packages: wget\n",
+            "Successfully installed wget-3.2\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Download Example file\n",
+        "!mkdir -p /resources/data\n",
+        "!wget -O /resources/data/Example1.txt https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/PY0101EN/labs/example1.txt"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "X-4IuHJfkRIl",
+        "outputId": "0851268b-158a-4655-f699-d4df75ed0520"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "--2024-09-06 09:14:38--  https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/PY0101EN/labs/example1.txt\n",
+            "Resolving s3-api.us-geo.objectstorage.softlayer.net (s3-api.us-geo.objectstorage.softlayer.net)... 67.228.254.196\n",
+            "Connecting to s3-api.us-geo.objectstorage.softlayer.net (s3-api.us-geo.objectstorage.softlayer.net)|67.228.254.196|:443... connected.\n",
+            "HTTP request sent, awaiting response... 200 OK\n",
+            "Length: 45 [text/plain]\n",
+            "Saving to: ‘/resources/data/Example1.txt’\n",
+            "\n",
+            "\r          /resource   0%[                    ]       0  --.-KB/s               \r/resources/data/Exa 100%[===================>]      45  --.-KB/s    in 0s      \n",
+            "\n",
+            "2024-09-06 09:14:38 (17.8 MB/s) - ‘/resources/data/Example1.txt’ saved [45/45]\n",
+            "\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Read the Example1.txt\n",
+        "example1 = \"/resources/data/Example1.txt\"\n",
+        "file1 = open(example1, \"r\")"
+      ],
+      "metadata": {
+        "id": "-iNvTV6Nk-9k"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Print the path of file\n",
+        "file1.name"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "zwSdafn7nV-M",
+        "outputId": "7a44211b-58e3-4be9-ad87-eeff0e3c4a74"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'/resources/data/Example1.txt'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 18
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Print the mode of file, either 'r' or 'w'\n",
+        "file1.mode"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "6B940eORnt6b",
+        "outputId": "f58bc53b-ce90-4417-bc84-d68738247cec"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'r'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 19
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Read the file\n",
+        "FileContent = file1.read()\n",
+        "FileContent"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "1BsTv8_Bn4Cj",
+        "outputId": "63e909e5-f26b-4344-ac6e-3377ea63a2e1"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'This is line 1 \\nThis is line 2\\nThis is line 3'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 20
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Print the file with '\\n' as a new line\n",
+        "print(FileContent)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "U5pNToxToD0T",
+        "outputId": "a160717a-f21f-40b9-8b1f-63f2845f2d89"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "This is line 1 \n",
+            "This is line 2\n",
+            "This is line 3\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Type of file content\n",
+        "type(FileContent)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "AK77HkusoQoc",
+        "outputId": "3234fdd5-a324-42e7-9839-ee140eabf747"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "str"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 22
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Close file ater finish\n",
+        "file1.close()"
+      ],
+      "metadata": {
+        "id": "p2IIZtUhoYw0"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Open file using with\n",
+        "with open(example1, \"r\") as file1:\n",
+        "  FileContent = file1.read()\n",
+        "  print(FileContent)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "yl_yWjBdofA8",
+        "outputId": "e5595066-9193-4a14-db5d-8acd779e8282"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "This is line 1 \n",
+            "This is line 2\n",
+            "This is line 3\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Veryfy if the file is closed\n",
+        "file1.closed"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "be0tcr9ro2qd",
+        "outputId": "5ee2186d-900e-410c-ad75-5fa8d6598765"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "True"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 25
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# See the content of file\n",
+        "print(FileContent)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "P8syEhn8o9-j",
+        "outputId": "aa79a2cf-e31a-4188-c8b8-f6b3bda3f7df"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "This is line 1 \n",
+            "This is line 2\n",
+            "This is line 3\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Read first four characters\n",
+        "with open(example1, \"r\") as file1:\n",
+        "  print(file1.read(4))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UeL7AWRFpD9U",
+        "outputId": "f4eaee63-6885-40b7-a66f-3b7f3f511fdb"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "This\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Read certain amount of characters\n",
+        "with open(example1, \"r\") as file1:\n",
+        "  print(file1.read(4))\n",
+        "  print(file1.read(4))\n",
+        "  print(file1.read(7))\n",
+        "  print(file1.read(15))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mvjobwWCpXOm",
+        "outputId": "6273fd27-cfd5-48fb-a21b-aa070716455d"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "This\n",
+            " is \n",
+            "line 1 \n",
+            "\n",
+            "This is line 2\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Read certain amount of characters\n",
+        "with open(example1, \"r\") as file1:\n",
+        "  print(file1.read(16))\n",
+        "  print(file1.read(5))\n",
+        "  print(file1.read(9))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "hoILRFbspzEN",
+        "outputId": "82c73e70-31eb-448f-a16a-3a2a0f354ba0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "This is line 1 \n",
+            "\n",
+            "This \n",
+            "is line 2\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Read one line\n",
+        "with open(example1, \"r\") as file1:\n",
+        "  print(\"first line: \" + file1.readline())"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "iTpmrx4oqs6D",
+        "outputId": "c2ed6718-1973-4129-83d1-82ceb57b0332"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "first line: This is line 1 \n",
+            "\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Iterate through the lines\n",
+        "with open(example1,\"r\") as file1:\n",
+        "  i = 0;\n",
+        "  for line in file1:\n",
+        "    print(\"Iteration\", str(i), \": \", line)\n",
+        "    i = i + 1;"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Nwmlyg00rc1W",
+        "outputId": "93acd029-9580-45bf-f0e1-9a575ef410b8"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Iteration 0 :  This is line 1 \n",
+            "\n",
+            "Iteration 1 :  This is line 2\n",
+            "\n",
+            "Iteration 2 :  This is line 3\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Read all lines and saveas a list\n",
+        "with open(example1, \"r\") as file1:\n",
+        "  FileasList = file1.readlines()"
+      ],
+      "metadata": {
+        "id": "IEDMGpZ-r_9X"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Print the first line\n",
+        "FileasList[0]"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "zjyhxz56sdzl",
+        "outputId": "31808644-5c34-4cf2-ab29-84bcceefb69f"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'This is line 1 \\n'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 43
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Print the second line\n",
+        "FileasList[1]"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "NsW8WGE_s25l",
+        "outputId": "cf99e252-74b3-422d-e516-b4f997310f1e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'This is line 2\\n'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 44
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Print the third line\n",
+        "FileasList[2]"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 35
+        },
+        "id": "WWw1qp-gtu32",
+        "outputId": "4c0a1910-e444-43e7-e886-1ebfcb7cf46b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'This is line 3'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 45
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!mkdir -p /resources/data"
+      ],
+      "metadata": {
+        "id": "cvH4-g17uXQd"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Write line to file\n",
+        "with open('/resources/data/Example2.txt', 'w') as writefile:\n",
+        "  writefile.write(\"This is line A\")"
+      ],
+      "metadata": {
+        "id": "aw-oIPQLuc5t"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Read file\n",
+        "with open('/resources/data/Example2.txt', 'r') as testwritefile:\n",
+        "  print(testwritefile.read())"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "CxGOheOOuzdw",
+        "outputId": "1e4b842a-3dde-4282-8018-9d3f67b28917"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "This is line A\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Write lines to file\n",
+        "with open('/resources/data/Example2.txt', 'w') as writefile:\n",
+        "  writefile.write(\"This is line A\\n\")\n",
+        "  writefile.write(\"This is line B\\n\")"
+      ],
+      "metadata": {
+        "id": "uVIC2TNnvJi3"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Check whether write to file\n",
+        "with open('/resources/data/Example2.txt', 'r') as testwritefile:\n",
+        "    print(testwritefile.read())"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "qan3UfaQvlcr",
+        "outputId": "dd2b32b0-4a5b-4567-eca8-ea299e051f13"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "This is line A\n",
+            "This is line B\n",
+            "This is line C\n",
+            "\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Write a new line to text file\n",
+        "with open('/resources/data/Example2.txt', 'a') as testwritefile:\n",
+        "    testwritefile.write(\"This is line C\\n\")"
+      ],
+      "metadata": {
+        "id": "1fiif7oLv9Wn"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Verify if the new line is in the text file\n",
+        "with open('/resources/data/Example2.txt', 'r') as testwritefile:\n",
+        "  print(testwritefile.read())"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "SxMr8eSBwksP",
+        "outputId": "1f8ee449-b51f-4d6a-af60-7624a33f6866"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "This is line A\n",
+            "This is line B\n",
+            "This is line C\n",
+            "This is line C\n",
+            "\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Sample list of text\n",
+        "Lines = [\"This is line A\\n\", \"This is line B\\n\", \"This is line C\\n\"]\n",
+        "Lines"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "M26VmC38xhDH",
+        "outputId": "f3329b04-fa4f-4871-acd9-2bd977c09482"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "['This is line A\\n', 'This is line B\\n', 'This is line C\\n']"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 58
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Write the strings in the list to text file\n",
+        "with open('Example2.txt', 'w') as writefile:\n",
+        "  for line in Lines:\n",
+        "    print(line)\n",
+        "    writefile.write(line)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "huFIH2XTx4X3",
+        "outputId": "e5eb8b13-f664-4f03-abde-fc0a0428af85"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "This is line A\n",
+            "\n",
+            "This is line B\n",
+            "\n",
+            "This is line C\n",
+            "\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Verify if writing to file is successfully executed\n",
+        "with open('Example2.txt', 'r') as testwritefile:\n",
+        "    print(testwritefile.read())"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ExsD8X7iybt3",
+        "outputId": "ee75ad88-73a1-434d-e0ca-cefe670cba51"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "This is line A\n",
+            "This is line B\n",
+            "This is line C\n",
+            "\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Append the line to the file\n",
+        "with open('Example2.txt', 'a') as testwritefile:\n",
+        "    testwritefile.write(\"This is line D\\n\")"
+      ],
+      "metadata": {
+        "id": "eDIuODXRymTO"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Verify if the appending is successfully executed\n",
+        "with open('Example2.txt', 'r') as testwritefile:\n",
+        "    print(testwritefile.read())"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6CFYRtHVy6uf",
+        "outputId": "44649cdb-5473-405d-bd76-3f6d9e38605e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "This is line A\n",
+            "This is line B\n",
+            "This is line C\n",
+            "This is line D\n",
+            "\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Copy file to another\n",
+        "with open('Example2.txt','r') as readfile:\n",
+        "    with open('Example3.txt','w') as writefile:\n",
+        "          for line in readfile:\n",
+        "                writefile.write(line)"
+      ],
+      "metadata": {
+        "id": "8Am85xC6zASO"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Verify if the copy is successfully executed\n",
+        "with open('Example3.txt','r') as testwritefile:\n",
+        "    print(testwritefile.read())"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TCohJ9c7zXVB",
+        "outputId": "974fcb9c-2498-4267-b6f8-d1d113026785"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "This is line A\n",
+            "This is line B\n",
+            "This is line C\n",
+            "This is line D\n",
+            "\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!mkdir -p /resources/data"
+      ],
+      "metadata": {
+        "id": "rxsBXqBUKK9G"
+      },
+      "execution_count": 13,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "with open('/resources/data/Biodata.txt', 'a') as writefile:\n",
+        "  writefile.write(\"Nama          : Nawang Riyana Putri\")\n",
+        "  writefile.write(\"Program Studi : Teknologi Informasi\")\n",
+        "  writefile.write(\"NPM           : 2410506002\")\n",
+        "  writefile.write(\"Alamat        : Brobot RT 18 RW 05 Kecamatan Bojongsari Kabupaten Purbalingga\")\n",
+        "  writefile.write(\"Hobi          : Membaca\")\n",
+        "  writefile.write(\"Email         : nawangriyana578@gmail.com\")"
+      ],
+      "metadata": {
+        "id": "r0QVMno5KTYd"
+      },
+      "execution_count": 41,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "with open('/resources/data/Biodata.txt', 'r') as readfile:\n",
+        "  lines = readfile.readlines()\n",
+        "\n",
+        "  for line in lines:\n",
+        "    if 'Nama' in line or 'Program Studi' in line or 'Email' in line:\n",
+        "      print(line.strip())"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "JOEgHQcuU1D1",
+        "outputId": "98f811c8-0121-43d8-878d-177121f96dfb"
+      },
+      "execution_count": 51,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Nama          : Nawang Riyana PutriProgram Studi : Teknologi InformasiNPM           : 2410506002Alamat        : Brobot RT 18 RW 05 Kecamatan Bojongsari Kabupaten PurbalinggaHobi          : MembacaEmail         : nawangriyana578@gmail.comNama          : Nawang Riyana PutriProgram Studi : Teknologi InformasiNPM           : 2410506002Alamat        : Brobot RT 18 RW 05 Kecamatan Bojongsari Kabupaten PurbalinggaHobi          : MembacaEmail         : nawangriyana578@gmail.comNama          : Nawang Riyana PutriProgram Studi : Teknologi InformasiEmail         : nawangriyana578@gmail.com\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "with open('/resources/data/Biodata.txt', 'r') as readfile:\n",
+        "  lines = readfile.readlines()\n",
+        "\n",
+        "  for line in lines:\n",
+        "    if 'Nama' in line or 'Program Studi' in line or 'Email' in line:\n",
+        "      print(line.strip())"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "xbo5zEKPOi2E",
+        "outputId": "95db7829-40cc-41a0-c5ca-a021bf5d8c2d"
+      },
+      "execution_count": 43,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Nama          : Nawang Riyana PutriProgram Studi : Teknologi InformasiNPM           : 2410506002Alamat        : Brobot RT 18 RW 05 Kecamatan Bojongsari Kabupaten PurbalinggaHobi          : MembacaEmail         : nawangriyana578@gmail.comNama          : Nawang Riyana PutriProgram Studi : Teknologi InformasiNPM           : 2410506002Alamat        : Brobot RT 18 RW 05 Kecamatan Bojongsari Kabupaten PurbalinggaHobi          : MembacaEmail         : nawangriyana578@gmail.comNama          : Nawang Riyana PutriProgram Studi : Teknologi InformasiEmail         : nawangriyana578@gmail.com\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "with open('/resources/data/Biodata.txt', 'r') as readfile:\n",
+        "  with open('/resources/data/Biodata2.txt', 'w') as writefile:\n",
+        "    for line in readfile:\n",
+        "      if any(keyword in line for keyword in ['Nama', 'NPM', 'Programm Studi', 'Alamat']):\n",
+        "        writefile.write(line)"
+      ],
+      "metadata": {
+        "id": "IwaAaa5AQDSi"
+      },
+      "execution_count": 38,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "with open('/resources/data/Biodata2.txt', 'r') as writefile:\n",
+        "  print(writefile.read())"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "rpabDLL_RB2l",
+        "outputId": "4709a473-2891-49a5-9144-aa8fb3eac8a8"
+      },
+      "execution_count": 35,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Menampilkan output di layar\n",
+        "print(\"Selamat datang di Toko Maju Jaya\")\n",
+        "print(\"Senin, 4 September 2023       13.05\")\n",
+        "print(\" \")\n",
+        "\n",
+        "print(\"DAFTAR BELANJA:\")\n",
+        "\n",
+        "# Definisi item dan harga\n",
+        "item1 = \"Sabun\"\n",
+        "item2 = \"Shampo\"\n",
+        "item3 = \"Mie instant\"\n",
+        "item4 = \"Detergen\"\n",
+        "\n",
+        "harga1 = 10000\n",
+        "harga2 = 15000\n",
+        "harga3 = 5000\n",
+        "harga4 = 17500\n",
+        "\n",
+        "# Menghitung total harga\n",
+        "total = harga1 + harga2 + harga3 + harga4\n",
+        "\n",
+        "# Menampilkan daftar belanja dan harga\n",
+        "print(f\"{item1:15} = Rp {harga1}\")\n",
+        "print(f\"{item2:15} = Rp {harga2}\")\n",
+        "print(f\"{item3:15} = Rp {harga3}\")\n",
+        "print(f\"{item4:15} = Rp {harga4}\")\n",
+        "\n",
+        "print(\" \")\n",
+        "print(f\"Total = Rp {total}\")\n",
+        "\n",
+        "# Menyimpan kuitansi ke dalam file\n",
+        "with open('Kuitansi.txt', 'w') as file:\n",
+        "    file.write(\"Selamat Datang di Toko Maju Jaya\\n\")\n",
+        "    file.write(\"\\n\")\n",
+        "    file.write(\"Kuitansi - 4 September 2023\\n\")\n",
+        "    file.write(\"\\n\")\n",
+        "    file.write(f\"{item1} = Rp {harga1}\\n\")\n",
+        "    file.write(f\"{item2} = Rp {harga2}\\n\")\n",
+        "    file.write(f\"{item3} = Rp {harga3}\\n\")\n",
+        "    file.write(f\"{item4} = Rp {harga4}\\n\")\n",
+        "    file.write(\"\\n\")\n",
+        "    file.write(f\"Total Belanja = Rp {total}\\n\")"
+      ],
+      "metadata": {
+        "id": "mZFqPSod8AGT",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "d2fc9530-d28f-4ae9-ab56-6c779397ab87"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Selamat datang di Toko Maju Jaya\n",
+            "Senin, 4 September 2023       13.05\n",
+            " \n",
+            "DAFTAR BELANJA:\n",
+            "Sabun           = Rp 10000\n",
+            "Shampo          = Rp 15000\n",
+            "Mie instant     = Rp 5000\n",
+            "Detergen        = Rp 17500\n",
+            " \n",
+            "Total = Rp 47500\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
